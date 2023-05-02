@@ -1,0 +1,177 @@
+  * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+
+  }
+
+  html {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 62.5%;
+  }
+
+  header {
+      background-color: rgb(20, 20, 20);
+      color: white;
+      font-size: 1.8rem;
+      padding: 1rem;
+      padding-top: 2rem;
+      position: fixed;
+      width: 100%;
+  }
+
+  footer {
+      background-color: rgb(20, 20, 20);
+      color: white;
+      font-size: 1.8rem;
+      padding: 1rem;
+
+  }
+
+  .conteudo {
+      font-size: 1.6rem;
+      background-color: white;
+      padding: 1.5rem;
+      margin: 0 auto;
+      text-align: justify;
+      max-width: 95%;
+
+  }
+
+  .conteudo-topo {
+      font-size: 1.6rem;
+      background-color: white;
+      padding: 1.5rem;
+      margin: 0 auto;
+      text-align: justify;
+      max-width: 95%;
+      padding-top: 10rem;
+
+  }
+
+  h1 {
+      font-size: 2.5rem;
+  }
+
+  h2 {
+      font-size: 1.9rem;
+  }
+
+  h3 {
+      font-size: 1.7rem;
+  }
+
+  h4 {
+      font-size: 1.6rem;
+  }
+
+  figure {
+      text-align: center;
+  }
+
+  .img-exemplo {
+      border-radius: 10px 10px 50px 10px;
+      width: 30%;
+      height: 10%;
+  }
+
+  @media (min-width: 280px) and (max-width:1800px) {
+      .img-exemplo {
+          border-radius: 10px 10px 50px 10px;
+          width: 90%;
+          height: 70%;
+      }
+
+  }
+
+  #compras {
+      background-color: blueviolet;
+      width: 150px;
+      height: 100px;
+      right: 0;
+      position: fixed;
+      text-align: center;
+      margin-top: 6rem;
+      z-index: 1;
+  }
+
+  #grid-conteudo {
+      background-color: rgb(150, 157, 155);
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 1px;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+
+  .grid div {
+      background-color: azure;
+      text-align: center;
+      padding: 2rem;
+  }
+
+  #formulario {
+      background-color: rgb(148, 145, 145);
+  }
+
+  input {
+      border: solid;
+      padding: 5px;
+      border-radius: 10px;
+      font-size: 1.8rem;
+  }
+
+  #mensagem {
+      border: solid;
+      padding: 5px;
+      border-radius: 10px;
+      font-size: 1.8rem;
+  }
+
+  #btn-limpar {
+      background-color: rgba(249, 7, 7, 0.684);
+      color: white;
+      text-align: center;
+      padding: 5px;
+      font-weight: bolder;
+      border-radius: 15px;
+  }
+
+  #btn-enviar {
+      background-color: rgba(82, 202, 38, 0.684);
+      color: white;
+      text-align: center;
+      padding: 5px;
+      font-weight: bolder;
+      border-radius: 15px;
+  }
+
+  nav {
+      text-align: right;
+      font-size: 1.6rem;
+      word-spacing: 10px;
+      margin-right: 5%;
+      padding-bottom: 5px;
+  }
+
+
+  @media (min-width: 280px) and (max-width:1800px) {
+      .nav {
+          border-radius: 10px 10px 50px 10px;
+          width: 90%;
+          height: 70%;
+      }
+  }
+
+
+  a {
+      text-decoration: none;
+      color: whitesmoke;
+      font-weight: bold;
+  }
+  a:hover{
+    color: chartreuse;
+  }
